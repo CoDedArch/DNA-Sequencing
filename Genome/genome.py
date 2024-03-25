@@ -3,11 +3,11 @@ class Genome:
         self.sequence = sequence
 
     @property
-    def sequence(self):
+    def sequences(self):
         return self.sequence
     
-    @sequence.setter
-    def sequence(self, new_sequence):
+    @sequences.setter
+    def sequences(self, new_sequence):
         self.sequence = new_sequence
 
     def get_length(self):
